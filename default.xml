@@ -8,7 +8,7 @@
   <default revision="refs/heads/master"
            sync-j="4" />
 		   
-  <project name="git_pilot-gitpilot1" remote="teamforge" path="PcAtChipsetPkg"/>
-  <project name="hwu25/Submodule1" remote="github" path="Submodule1"/>
+  <project name="git_pilot-gitpilot1" remote="teamforge" path="TestPkg"/>
+  <project name="hwu25/Submodule1" remote="github" path="."/>
 
 </manifest>
