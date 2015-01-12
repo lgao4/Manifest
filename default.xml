@@ -3,12 +3,12 @@
   <remote  name="github"
            fetch="https://github.com" />
   <remote  name="teamforge"
-           fetch="https://git-ccr-1.devtools.intel.com" />
+           fetch="ssh://git-ccr-1.devtools.intel.com:29418" />
 
   <default revision="refs/heads/master"
            sync-j="4" />
 		   
-  <project name="gerrit/gitweb?p=git_pilot-gitpilot1" remote="teamforge" path="PcAtChipsetPkg"/>
+  <project name="git_pilot-gitpilot1" remote="teamforge" path="PcAtChipsetPkg"/>
   <project name="hwu25/Submodule1" remote="github" path="Submodule1"/>
 
 </manifest>
