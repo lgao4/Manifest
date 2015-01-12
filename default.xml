@@ -2,12 +2,13 @@
 <manifest>
   <remote  name="github"
            fetch="https://github.com" />
+  <remote  name="teamforge"
+           fetch="https://git-ccr-1.devtools.intel.com" />
 
   <default revision="refs/heads/master"
-           remote="github"
            sync-j="4" />
 		   
-  <project name="hwu25/edk2_PcAtChipsetPkg" remote="github" path="PcAtChipsetPkg"/>
+  <project name="gerrit/gitweb?p=git_pilot-gitpilot1" remote="teamforge" path="PcAtChipsetPkg"/>
   <project name="hwu25/Submodule1" remote="github" path="Submodule1"/>
 
 </manifest>
