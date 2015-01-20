@@ -3,12 +3,13 @@
   <remote  name="github"
            fetch="https://github.com" />
   <remote  name="teamforge"
-           fetch="ssh://git-ccr-1.devtools.intel.com:29418" />
+           fetch="ssh://git-amr-1.devtools.intel.com:29418" />
 
   <default revision="refs/heads/master"
            sync-j="4" />
 		   
-  <project name="git_pilot-gitpilot1" remote="teamforge" path="TestPkg"/>
+  <project name="git_pilot-basetools" remote="teamforge" path="TestPkg"/>
   <project name="hwu25/Submodule1" remote="github" path="."/>
+  <project name="tianocore/edk2-IntelFrameworkPkg" remote="github" path="IntelFrameworkPkg"/>
 
 </manifest>
